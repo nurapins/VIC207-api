@@ -16,7 +16,7 @@ also pit their team against real life teams, and we could also have a feature th
 among others in a certain league or across the world. The winner of a game will be based on calculations performed on
 the overall statistics of the team, which is based on stats of each
 player. If we still have time, we also wish to include a generative commentary feature using a GPT API or something
-similar.
+similar. 
 
 API-Football Documentation :https://www.api-football.com/documentation-v3
 
