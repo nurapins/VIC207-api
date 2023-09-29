@@ -18,9 +18,15 @@ the overall statistics of the team, which is based on stats of each
 player. If we still have time, we also wish to include a generative commentary feature using a GPT API or something
 similar. 
 
+In our main file, we give an example of outputting a response body string after requesting player information for 
+Neymar. 
+
 API-Football Documentation :https://www.api-football.com/documentation-v3
 
 Example of trying the API using RapidAPI:
 ![img.png](img.png)
 
 Technical problems so far:
+- How do we extract specific pieces of data from the response body?
+- We don't know the scale of the request (i.e, league, teams, player, etc.) and how to access random players from the database.
+- We are only allowed 100 requests per day for the free version, we are unsure if our final project will need more.
